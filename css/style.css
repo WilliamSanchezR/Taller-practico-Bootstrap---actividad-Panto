@@ -149,6 +149,48 @@
         top: 16%;
     }
 
+    /* estilos main */
+
+    #choosing-us {
+        width: 100%;
+        position: relative;
+        background: var(--white-color);
+        padding: 120px 0;
+    }
+
+    #choosing-us h2 {
+        font-weight: 700;
+        font-size: 38px;
+        color: var(--dark-color);
+        padding-top: 22px;
+    }
+
+    #choosing-us h3 {
+        font-size: 22px;
+        font-weight: 700;
+        color: var(--dark-color);
+    }
+
+    #choosing-us p {
+        font-size: var(--fs-text);
+        color: var(--dark-color);
+        margin-top: 20px ;
+    }
+
+    #choosing-us a {
+        text-decoration: none;
+        color: var(--prymari-color);
+    }
+
+    #choosing-us a i {
+        margin-left: 4px;
+        transition: .5s;
+    }
+
+    #choosing-us a:hover i {
+        margin-left: 15px;
+    }
+
     /* - Sexto estilos responsive Tablets  */ 
 
     @media screen and (min-width:768px) and (max-width:1080px){
