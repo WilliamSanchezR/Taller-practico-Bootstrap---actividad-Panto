@@ -321,6 +321,150 @@
             color: #0D1B39;
         }
 
+        #experiences {
+            width: 100%;
+            position: relative;
+            padding: 140px 0;
+        }
+
+        #experiences .cont-img {
+            position: relative;
+            left: -20px;
+        }
+
+        #experiences .cont-img::before {
+            content: "";
+            width: 300px;
+            height: 400px;
+            background: #f7f7f7;
+            position: absolute;
+            z-index: -1;
+            top: -60px;
+            border-radius: 20px;
+        }
+
+        #experiences .cont-img::after {
+            content: "";
+            width: 400px;
+            height: 300px;
+            background: #f7f7f7;
+            position: absolute;
+            z-index: -2;
+            right: -20px;
+            top: 100px;
+            border-radius: 20px;
+        }
+
+        #experiences .cont-img img {
+            box-shadow: -13px 9px 20px 0px #ba8c57;
+        }
+
+        #experiences .cont-info {
+            padding: 90px 50px 0 0;
+        }
+
+        #experiences .cont-info h3 {
+            color: var(--prymari-color);
+            text-transform: uppercase;
+            font-size: var(--fs-tittle4);
+        }
+
+        #experiences .cont-info h2 {
+            font-size: var(--fs-tittle2);
+            color: var(--dark-color);
+            font-weight: 700;
+            width: 480px;
+        }
+
+        #experiences .cont-info p {
+            font-size: var(--fs-text);
+            color: var(--dark-color);
+            margin-top: 20px;
+        }
+
+        #experiences .cont-info a {
+            text-decoration: none;
+            color: var(--prymari-color);
+        }
+
+        #experiences .cont-info i {
+            margin-left: 4px;
+            transition: .5s;
+        }
+
+        #experiences .cont-info a:hover i {
+            margin-left: 15px;
+        }
+
+        #materials .cont-img {
+            position: relative;
+            left: -20px;
+        }
+
+        #materials .cont-img::before {
+            content: "";
+            width: 300px;
+            height: 400px;
+            background: #f7f7f7;
+            position: absolute;
+            z-index: -1;
+            top: -60px;
+            border-radius: 20px;
+        }
+
+        #materials .cont-img::after {
+            content: "";
+            width: 400px;
+            height: 300px;
+            background: #f7f7f7;
+            position: absolute;
+            z-index: -2;
+            right: -20px;
+            top: 100px;
+            border-radius: 20px;
+        }
+
+        #materials .cont-img img {
+            box-shadow: -13px 9px 20px 0px #ba8c57;
+        }
+
+        #materials .cont-info {
+            padding: 0 0 90px 50px;
+        }
+
+        #materials .cont-info h3 {
+            color: var(--prymari-color);
+            text-transform: uppercase;
+            font-size: var(--fs-tittle4);
+        }
+
+        #materials .cont-info h2 {
+            font-size: var(--fs-tittle2);
+            color: var(--dark-color);
+            font-weight: 700;
+            width: 480px;
+        }
+
+        #materials .cont-info p {
+            font-size: var(--fs-text);
+            color: var(--dark-color);
+            margin-top: 20px;
+        }
+
+        #materials .cont-info a {
+            text-decoration: none;
+            color: var(--prymari-color);
+        }
+
+        #materials .cont-info i {
+            margin-left: 4px;
+            transition: .5s;
+        }
+
+        #materials .cont-info a:hover i {
+            margin-left: 15px;
+        }
+
     /* - Sexto estilos responsive Tablets  */ 
 
     @media screen and (min-width:768px) and (max-width:1080px){
