@@ -149,7 +149,9 @@
         top: 16%;
     }
 
-    /* estilos main */
+/* Estilos main */
+
+    /* Estilos Chossing-us */
 
     #choosing-us {
         width: 100%;
@@ -190,6 +192,134 @@
     #choosing-us a:hover i {
         margin-left: 15px;
     }
+
+    /* Estilos product */
+
+    #product {
+        background: var(--gray-color);
+        padding: 50px 0;
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+
+    #procuct h2 {
+        font-size: var(--fs-tittle2);
+        font-weight: 700;
+        color: var(--dark-color);
+        margin-bottom: 40px;
+    }
+
+    #product ul {
+        width: 420px;
+        margin: 0 auto;
+        background: #eeeeee;
+        padding: 7px;
+        border-radius: 40px;
+        justify-content: space-between;
+    }
+
+    #product li button {
+        color: var(--dark-color);
+        padding: 10px 30px;
+        border: none;
+    }
+
+    #product li button.active {
+        background: var(--white-color); 
+        border-radius: 30px; /*arreglar*/
+        border: none;
+    }
+
+    #product li button:hover {
+        border: none;
+    }
+
+    #product .card-product {
+        margin: 0 15px !important;
+
+    }
+
+    #product .cont-img {
+        background: #e6e6e6;
+        position: relative;
+        width: 100%;
+        min-height: 220px;
+        border-radius: 20px 20px 0 0;
+    }
+
+    #product .cont-img img {
+        width: 220px;
+        position: absolute;
+        top: -70px;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+    }
+
+    #product .slick-list {
+        padding: 150px 0;
+    }
+
+    #product .cont-info {
+        background: var(--white-color);
+        text-align: left;
+        padding: 20px;
+        border-radius: 0 0 20px 20px;
+    }
+
+    #product .cont-info .category {
+        font-size: var(--fs-text);
+        color: #8d8d8d;
+    }
+
+    #product .cont-info h3 {
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    #product .star i {
+        color: #f6b76f;
+    }
+
+    #product .star {
+        margin-bottom: 30px;
+    }
+
+    #product .card-product h4{
+        font-size: var(--fs-tittle3);
+        font-weight: 600;
+        display: flex;
+        margin: 0;
+    }
+
+    #product .card-product h4 span{
+        font-size: 15px;
+    }
+
+    #product .card-product button {
+        background: #0D1B39;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        color: var(--white-color);
+        font-size: 30px;
+        border: none;
+    }
+
+    #product .slick-arrow {
+        background: var(--white-color);
+        width: 50px;
+        height: 50px;
+        z-index: 99;
+        border-radius: 50%;
+        color: #0D1B39;
+        border: 1px solid #dbdada;
+    }
+
+        #product .slick-arrow::before {
+            color: #0D1B39;
+        }
 
     /* - Sexto estilos responsive Tablets  */ 
 
