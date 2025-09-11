@@ -475,6 +475,105 @@
             margin-left: 15px;
         }
 
+        #reviews {
+            width: 100%;
+            padding: 100px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        #reviews h3 {
+            font-size: var(--fs-tittle2);
+            color: var(--dark-color);
+            width: 480px;
+        }
+
+        #reviews h2 {
+            color: var(--prymari-color);
+            text-transform: uppercase;
+            font-size: var(--fs-tittle4);
+            text-decoration: capitalize;
+            font-weight: 700;
+        }
+
+        #reviews .card-review {
+            position: relative;
+        }
+
+        #reviews .card-review .img-fondo {
+            width: 342px;
+        }
+
+        #reviews .card-review .cont-info {
+            background: var(--white-color);
+            position: absolute;
+            width: 78%;
+            bottom: 30px;
+            border-radius: 30px;
+            left: 5%;
+            padding-bottom: 20px;
+            padding-top: 50px;
+            padding-right: 30px;
+            padding-left: 30px;
+            margin: 0 10px 0 6px;
+        }
+
+        #reviews .card-review .cont-info img {
+            position: absolute;
+            top: -25px;
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+            border: 10px solid var(--white-color);
+            border-radius: 50%;
+        }
+
+        #reviews .card-review .cont-info h4 {
+            font-size: var(--fs-tittle4);
+            color: var(--dark-color);
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        #reviews .card-review .cont-info h5 {
+            font-size: 12px;
+            color: #666;
+            font-weight: 300;
+            margin-bottom: 30px;
+        }
+
+        #reviews .card-review .cont-info p {
+            font-size: 14px;
+            color: var(--dark-color);
+            width: 250px;
+            padding: 0 15px 0 0;
+        }
+
+
+        #reviews .card-review .cont-info .star i {
+        color: #f6b76f;
+        }
+
+        #reviews .card-review .cont-info .star i:nth-child(5){
+            opacity: 0.5;
+        }
+
+        #reviews .slick-arrow {
+            background: var(--white-color);
+            width: 50px;
+            height: 50px;
+            z-index: 99;
+            border-radius: 50%;
+            color: #0D1B39;
+            border: 1px solid #dbdada;
+        }
+
+        #reviews .slick-arrow::before {
+            color: #0D1B39;
+        }
+
+
+
     /* - Sexto estilos responsive Tablets  */ 
 
     @media screen and (min-width:768px) and (max-width:1080px){
