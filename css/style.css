@@ -21,6 +21,11 @@
         font-family: "Raleway", sans-serif;
     }
 
+    body {
+    overflow-x: hidden;
+    }
+
+
     /* - Cuarto variables */
 
     :root {
@@ -398,38 +403,43 @@
 
         #materials .cont-img {
             position: relative;
-            left: -20px;
+            left: 20px;
+            bottom: -145px;
         }
 
         #materials .cont-img::before {
             content: "";
-            width: 300px;
-            height: 400px;
+            width: 400px;
+            height: 100px;
             background: #f7f7f7;
             position: absolute;
             z-index: -1;
             top: -60px;
-            border-radius: 20px;
-        }
-
-        #materials .cont-img::after {
-            content: "";
-            width: 400px;
-            height: 300px;
-            background: #f7f7f7;
-            position: absolute;
-            z-index: -2;
-            right: -20px;
-            top: 100px;
+            left: 80px;
             border-radius: 20px;
         }
 
         #materials .cont-img img {
-            box-shadow: -13px 9px 20px 0px #ba8c57;
+            box-shadow: 4px 4px 20px #ba8c57;
+            border-radius: 15px;
+        }
+
+        #materials .cont-img-1 {
+            position: relative;
+            left: -20px;
+        }
+
+        #materials .cont-img-1 img{
+            margin: 20px 40px 10px 0;
+            border-radius: 15px;
+        }
+
+        #materials .cont-img-1 img {
+            box-shadow: 0px 13px 19px -10px #9f978e;
         }
 
         #materials .cont-info {
-            padding: 0 0 90px 50px;
+            padding: 180px 70px 90px 50px;
         }
 
         #materials .cont-info h3 {
